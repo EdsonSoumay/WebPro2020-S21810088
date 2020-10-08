@@ -114,7 +114,7 @@ let student = {
     }
   };
  let {
-     IPpersemester: { semester4}     
+     IPpersemester: {semester4}     
     }=student;
     console.log(semester4);
 */
