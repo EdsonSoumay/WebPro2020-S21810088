@@ -92,7 +92,7 @@ let student = {
     Jurusan: "Sistem Informasi",
     aktifkuliah: true
   };
-  let { nama:name, umur:age, fakultas:faculty}=student; menggunakan tanda titik dua
+  let { nama:name, umur:age, fakultas:faculty}=student;// menggunakan tanda titik dua
 
   console.log(name);
   console.log(age);
