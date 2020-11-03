@@ -2,14 +2,15 @@
 
 
 
-/*
+
 //jawaban no 1
 
-const calculateAge = (birthYear)=> {
+const calculateAge = (BirthYear)=> {
+    return 2019 - BirthYear;
 }
  
 const yearUntilRetirement = (object) => {
-	const age = calculateAge(object.year);
+	const age = calculateAge(object.BirthYear);
 	const retirement = 60 - age;
    	if(retirement > 0){
     	console.log(`${object.firstName} retires in ${retirement} years`);
@@ -19,9 +20,9 @@ const yearUntilRetirement = (object) => {
 }
  
 yearUntilRetirement(
-    {birthYear: 1987, firstName: 'John'} );
+    {BirthYear: 1987, firstName: 'John'} );
     
-*/
+
 
 /*
 // jawaban no 2
@@ -93,3 +94,4 @@ let namabuah2 = ["sirsak", "semangka"];
 let namabuah = [...namabuah1, ...namabuah2];
 console.log(namabuah);
 */
+
