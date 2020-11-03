@@ -2,7 +2,7 @@
 
 
 
-
+/*
 //jawaban no 1
 
 const calculateAge = (BirthYear)=> {
@@ -17,11 +17,10 @@ const yearUntilRetirement = (object) => {
 	} else {
     	console.log(`${object.firstName} is already retired.`);
 	}
-}
- 
-yearUntilRetirement(
-    {BirthYear: 1987, firstName: 'John'} );
-    
+} 
+yearUntilRetirement( {BirthYear: 1987, firstName: 'John'} );
+  
+    */  
 
 
 /*
