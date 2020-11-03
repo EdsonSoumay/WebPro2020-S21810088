@@ -11,8 +11,7 @@ const calculateAge = (birthYear)=> {
 const yearUntilRetirement = (object) => {
 	const age = calculateAge(object.year);
 	const retirement = 60 - age;
-   
-	if(retirement > 0){
+   	if(retirement > 0){
     	console.log(`${object.firstName} retires in ${retirement} years`);
 	} else {
     	console.log(`${object.firstName} is already retired.`);
@@ -42,7 +41,6 @@ addNumber(1,2,3,4,5,6,7)
 
 
 
-
 /*
 //jawaban no 3
 
@@ -51,9 +49,8 @@ let power = 2;
 let radius = 0;
  
 const calculateArea = (obj) => {
-  return phi * Math.pow(obj.radius, obj.power);
+return phi * Math.pow(obj.radius, obj.power);
 };
- 
 radius = 21;
 let area21 = calculateArea({radius: radius, power: 2 });
 radius = 7;
@@ -66,12 +63,12 @@ console.log('area with 21 radius: ' + area21 + ', and area with 7 radius: ' + ar
 //jawaban no 4
 
 const makeAjaxRequest = (url, method) => {
-    if(!method){
+    if(!method)
+    {
            method = `GET`
     }
     console.log(`${url}, ${method}`);
 }
-
 makeAjaxRequest(`www.google.com`);
 */
 
@@ -85,8 +82,7 @@ makeAjaxRequest(`www.google.com`);
 const WarnaKesukaan =(warna="putih") =>{
     return console.log(`Warna kesukaan saya adalah ${warna}`)
     }
-    
-    WarnaKesukaan('biru');
+     WarnaKesukaan('biru');
     
 
 //jawaban no 2
