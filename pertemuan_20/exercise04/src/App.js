@@ -2,7 +2,7 @@
 import './App.css';
 import Card from './components/card-pertemuan21'
 import {person} from './utils/person-pertemuan21';
-
+import Counter from './components/counter-pertemuan22';
 //import Hello from './components/Hello';
 //import Content from './components/Content';
 //import Nama from './components/Nama';
@@ -10,6 +10,20 @@ import {person} from './utils/person-pertemuan21';
 //import Alamat from './components/Alamat';
 
 
+
+//PERTEMUAN 22
+function App() {
+  return( 
+    <>
+   <Counter/>
+   </>
+   );
+  }
+
+
+
+/*
+//PERTEMUAN 21
 function App() {
   return( 
     <>
@@ -26,20 +40,24 @@ function App() {
    </>
    );
   }
+  
+  */
   export default App;
 
 /*
-  <Header/>
-  <Hello/>
-  <Nama/>
-  <Alamat/>
-  <Ttl/>
-
-  <Content/>
-  
-  
+//EXERCISE 04
+function App() {
+  return( 
+    <>
+      <Header/>
+      <Hello/>
+      <Nama/>
+      <Alamat/>
+      <Ttl/>
+      <Content/>
     </>
-  );
+   );
+  }
 } 
 */
 

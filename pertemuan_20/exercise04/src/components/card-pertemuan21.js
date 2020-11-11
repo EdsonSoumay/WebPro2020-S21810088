@@ -8,6 +8,7 @@ const Card = ({name, institution, address, phoneNumber}) =>{
             <p>{institution}</p>
             <p>{address}</p>
             <p>{phoneNumber}</p>
+          
         </div>
     )
 };
