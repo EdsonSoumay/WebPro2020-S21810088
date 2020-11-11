@@ -17,8 +17,8 @@ function App() {
      return(
        <Card
         name={item.name}
-        institution={ item.instution}
-        address = {item.adress}
+        institution={item.institution}
+        address = {item.address}
         phoneNumber= {item.phoneNumber}
       />
      );
@@ -26,7 +26,7 @@ function App() {
    </>
    );
   }
-
+  export default App;
 
 /*
   <Header/>
@@ -42,5 +42,5 @@ function App() {
   );
 } 
 */
-export default App;
+
 // keterangan : jsx hanya memiliki 1 komponen yang dikembalikan

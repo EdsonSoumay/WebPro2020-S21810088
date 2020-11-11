@@ -1,5 +1,5 @@
 // ini adalah materi pertemuan 21
-import react from "react";
+import React from "react";
 
 const Card = ({name, institution, address, phoneNumber}) =>{
     return (

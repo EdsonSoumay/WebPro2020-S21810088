@@ -1,19 +1,19 @@
 export const person = [
     {
         name: "Edson",
-        institution: "Unklab",
+        institution: "Untad",
         address: "Manado",
         phoneNumber: "0812xxxxxxx",
     },
     {
         name: "Soned",
-        institution: "Unima",
+        institution: "Unklab",
         address: "Manado",
         phoneNumber: "0825xxxxxxx",
     },
     {
         name: "Denson",
-        institution: "Unsrat",
+        institution: "Unpati",
         address: "Manado",
         phoneNumber: "088xxxxxxx",
     },
@@ -23,4 +23,4 @@ export const person = [
         address: "Manado",
         phoneNumber: "082xxxxxxx",
     },
-    ];
+];
