@@ -12,6 +12,7 @@ import Counter from './components/counter-pertemuan22';
 
 
 //PERTEMUAN 22
+
 function App() {
   return( 
     <>
@@ -40,7 +41,6 @@ function App() {
    </>
    );
   }
-  
   */
   export default App;
 
