@@ -10,9 +10,8 @@ import Counter from './components/counter-pertemuan22';
 //import Alamat from './components/Alamat';
 
 
-
+/*
 //PERTEMUAN 22
-
 function App() {
   return( 
     <>
@@ -20,8 +19,7 @@ function App() {
    </>
    );
   }
-
-
+*/
 
 /*
 //PERTEMUAN 21
@@ -41,7 +39,7 @@ function App() {
    </>
    );
   }
-  */
+*/
   export default App;
 
 /*
