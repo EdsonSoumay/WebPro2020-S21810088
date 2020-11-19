@@ -2,7 +2,7 @@
 import './App.css';
 import React, {Component} from "react";
 import Card from './components/card-pertemuan21';
-import axios from "axios";
+//import axios from "axios";
 //import {person} from './utils/person-pertemuan21';
 //import Counter from './components/counter-pertemuan22';
 //import Hello from './components/Hello';
