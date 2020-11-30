@@ -1,5 +1,5 @@
 //import Header from './components/Header';
-import './App.css';
+//import './App.css';
 //import React, {Component} from "react";
 //import Card from './components/card-pertemuan21';
 //import axios from "axios";
@@ -11,10 +11,10 @@ import './App.css';
 //import Ttl from './components/Ttl';
 //import Alamat from './components/Alamat';
 
-/*
+
 // ---------------------------------------PERTEMUAN 25 --------------------------------------------
 import React from 'react'
-//import './App.css'
+import './App.css'
 import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom'
 import { Home, Login, Register } from './pages'
 
@@ -58,24 +58,23 @@ const App = () =>{
     )
 }
 
-export default App
+export default App;
 
 
-*/
 
 
-/*
+
 //------------------------------------PERTEMUAN 24----------------------------------------------
-class App extends Component{
+/*class App extends Component{
  
   state = {
     users: [],
   };
  
   componentDidMount() {
-  // fetch('https://jsonplaceholder.typicode.com/users')
-  //.then((response) => response.json())
-  //.then((json) => this.setState({users:json}));
+  fetch('https://jsonplaceholder.typicode.com/users')
+  .then((response) => response.json())
+  .then((json) => this.setState({users:json}));
   
  
   //axios
@@ -102,7 +101,7 @@ class App extends Component{
 }
   export default App;
 
-*/
+
 
 
 /*
